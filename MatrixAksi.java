@@ -191,7 +191,6 @@ public void show() {
         B.times(A).show();
         System.out.println("\n");
         // shouldn't be equal since AB != BA in general
-        System.out.println("shouldn't be equal since AB != BA in general");
         System.out.println(A.times(B).eq(B.times(A)));
         System.out.println("\n");
        
